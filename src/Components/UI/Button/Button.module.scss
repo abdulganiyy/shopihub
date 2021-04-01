@@ -1,0 +1,15 @@
+.button {
+  padding: 1rem 2rem;
+  background-color: dodgerblue;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  color: white;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}

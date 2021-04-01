@@ -1,0 +1,64 @@
+.formcontainer {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+
+  h2 {
+    margin: 2rem 0;
+  }
+
+  .inputcontainer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #eee;
+
+    .icon {
+      padding: 10px;
+      background: dodgerblue;
+      color: white;
+      min-width: 50px;
+      text-align: center;
+    }
+
+    .inputfield {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+    }
+
+    .inputfield:focus {
+      border: 2px solid dodgerblue;
+    }
+  }
+
+  /* Set a style for the submit button */
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .switch {
+    margin-top: 1rem;
+    display: inline-block;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .formcontainer {
+    width: 90%;
+  }
+}

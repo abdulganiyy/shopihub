@@ -1,0 +1,33 @@
+.SideDrawer {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 150;
+  background-color: #73828f;
+  transform: translateX(-1000px);
+  transition: transform 0.5s ease-in;
+  font-family: "Roboto";
+  padding: 2rem 2rem;
+  color: white;
+  font-weight: bolder;
+
+  ul {
+    margin: 0;
+    padding-top: 1rem;
+
+    a {
+      text-decoration: none;
+    }
+
+    li {
+      list-style: none;
+      padding: 0.5rem 0;
+    }
+  }
+}
+
+.Open {
+  transform: translateX(0);
+}

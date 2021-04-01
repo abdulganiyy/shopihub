@@ -1,0 +1,27 @@
+.modal {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  z-index: 250;
+  width: 300px;
+  background-color: dodgerblue;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  display: none;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    margin: 1rem 0.5rem;
+    padding-top: 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.Open {
+  display: block;
+}
